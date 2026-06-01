@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerenciamento - HelpCity</title>
+<link rel="stylesheet" href="ocorrencias.css">
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">HelpCity</h1>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="alertas.html">Alertas</a>
+    <a href="mapa.html">Mapa</a>
+    <a href="ocorrencias.html">Ocorrências</a>
+    <a href="contato.html">Contato</a>
+    <a href="gerenciamento.html">Gerenciamento</a>
+</nav>
+
+</header>
+
+<section>
+
+<h2>Painel de Gerenciamento</h2>
+
+<p>
+Visualize, edite e exclua ocorrências cadastradas.
+</p>
+
+<div id="listaOcorrencias"></div>
+
+</section>
+
+<script src="back-end/script.js"></script>
+
+</body>
+</html>
